@@ -47,7 +47,7 @@ export default function List() {
         {myarr.map((i) => {
           return (
             <li key={i.id}>
-              {i.name} ands {i.id}
+              {i.name} and{i.id}
             </li>
           );
         })}
